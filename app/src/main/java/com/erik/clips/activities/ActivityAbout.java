@@ -13,6 +13,7 @@ import com.erik.clips.R;
  * Cоздается для отображения информации приложений такой информации как название приложения,
  * версии и имя разработчика. Созданный с использованием PreferenceActivity
  * это коментарий для проверки #1
+ * это коментарий для проверки #2
  */
 public class ActivityAbout extends PreferenceActivity
 		implements Preference.OnPreferenceClickListener {
