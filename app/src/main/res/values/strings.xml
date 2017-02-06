@@ -11,14 +11,14 @@
 
     <!-- Channel and playlist names, you can change the text but do NOT remove New Videos field. -->
     <string-array name="channel_names">
-        <item>Новые Клипы</item>
-        <item>Rihana</item>
-        <item>Rikmen TV</item>
-        <item>Kurt Hugo Schneider</item>
-        <item>Mike Tompkins</item>
-        <item>Walk of the Earth</item>
-        <item>ThePianoGuys</item>
-        <item>Acoustic Covers</item>
+        <item>Видео</item>
+        <item>Java</item>
+        <item>JavaScript</item>
+        <item>Python</item>
+        <item>HTML</item>
+        <item>C#</item>
+        <item>C++</item>
+        <item>PHP</item>
     </string-array>
 
     <!-- If it is channel than set it with 1, if it is playlist set it with 2. -->
@@ -36,13 +36,13 @@
     <!-- Channel and playlist ids -->
     <string-array name="channel_ids">
         <item>0</item>
-        <item>UC5OrDvL9DscpcAstz7JnQGA</item>
-        <item>UCcw0ybOrJ9rw0EpeymTWTbA</item>
-        <item>UCplkk3J5wrEl0TNrthHjq4Q</item>
-        <item>UCYEnCCeFBCbrlmuNVzs21LQ</item>
-        <item>UCK7tptUDHh-RYDsdxO1-5QQ</item>
-        <item>UCmKurapML4BF9Bjtj4RbvXw</item>
-        <item>PL0BD69368AB943C89</item>
+        <item>UC7f5bVxWsm3jlZIPDzOMcAg</item>
+        <item>UCIIt69f5D44s2cdb9vXQNzA</item>
+        <item>UCvuY904el7JvBlPbdqbfguw</item>
+        <item>UCzxRv9BtqrM946JmaMLtv_w</item>
+        <item>UCWGXrIvuDMRVKNc4CWSdOgg</item>
+        <item>UC0Fl0gKuawQQs8jf35T_kfg</item>
+        <item>UCZeU17nbVfzczAkJVTay9vw</item>
     </string-array>
 
     <!-- Page titles -->
@@ -55,7 +55,7 @@
     <string name="error_player">There was an error initializing the YouTubePlayer (%1$s)</string>
 
     <!-- Button text -->
-    <string name="retry">Retry</string>
+    <string name="retry">Повторить</string>
 
     <!-- Date Util -->
     <string name="date_util_term_less">less than</string>
@@ -87,21 +87,21 @@
     <string name="pref_rate_review_key">prefRateReviewKey</string>
 
     <!-- About preferences values -->
-    <string name="pref_app_title">Application Name</string>
-    <string name="pref_app_summary">Youtube APP</string>
+    <string name="pref_app_title">Приложение</string>
+    <string name="pref_app_summary">Cody Tutorials</string>
     <string name="pref_version_title">Build Version</string>
     <string name="pref_version_summary">Version 2.0</string>
-    <string name="pref_developer_title">Developer</string>
-    <string name="pref_developer_summary">Erik Deliyev</string>
+    <string name="pref_developer_title">Разработка</string>
+    <string name="pref_developer_summary">Владимир Ладюков и Евгений Бадюла</string>
     <string name="pref_copyright_title">Copyright</string>
-    <string name="pref_copyright_summary">Copyright 2016 Erik Deliyev. All rights reserved</string>
-    <string name="pref_share_title">Tell a Friend</string>
-    <string name="pref_share_summary">Tell your friend about this app</string>
+    <string name="pref_copyright_summary">Copyright 2017. Все права защищены</string>
+    <string name="pref_share_title">Поделиться</string>
+    <string name="pref_share_summary">Раскажи своим друзьям об этом приложении</string>
     <string name="pref_rate_review_title">Rate &amp; Review</string>
     <string name="pref_rate_review_summary">Rate and review this app if you think it is awesome</string>
 
     <!-- Sharing content -->
-    <string name="share_to">Share to</string>
+    <string name="share_to">Поделиться:</string>
     <string name="subject">Hi, I just Watch Awesome Video via Layar Tancep</string>
     <string name="message">You can download Layar Tancep for Android at </string>
 

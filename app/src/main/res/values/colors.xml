@@ -12,6 +12,6 @@
     <color name="drawer_background_color">#263238</color>
     <color name="drawer_item_selected_color">#37474F</color>
     <color name="drawer_divider_color">#455A64</color>
-    <color name="window_background_color">#37474F</color>
+    <color name="window_background_color">#80d9ef</color>
     <color name="material_background_color">#455A64</color>
 </resources>

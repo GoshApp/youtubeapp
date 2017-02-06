@@ -39,7 +39,7 @@ public class ActivitySplash extends AppCompatActivity {
         protected Void doInBackground(Void... voids) {
 
             try {
-                Thread.sleep(2000);
+                Thread.sleep(4000);
             }catch(InterruptedException ie){
                 ie.printStackTrace();
             }
