@@ -28,7 +28,7 @@ public class ActivitySplash extends AppCompatActivity {
 
         setContentView(R.layout.activity_splash);
 
-        // Создать Loading подождать несколько секунд перед отображением ActivityHome
+        // Создать Loading подождать несколько секунд перед отображением ActivityVideo
         new Loading().execute();
     }
 
@@ -49,7 +49,7 @@ public class ActivitySplash extends AppCompatActivity {
         @Override
         protected void onPostExecute(Void aVoid) {
             super.onPostExecute(aVoid);
-            //Когда загрузка закончена, откройть ActivityHome
+            //Когда загрузка закончена, откройть ActivityVideo
             Intent homeIntent = new Intent(getApplicationContext(), ActivityHome.class);
             startActivity(homeIntent);
             overridePendingTransition(R.anim.open_next, R.anim.close_main);

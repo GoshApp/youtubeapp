@@ -102,7 +102,7 @@ public class FragmentChannelVideos extends Fragment implements View.OnClickListe
         // Получить данные Bundle
         Bundle bundle = this.getArguments();
 
-        //Получить данные из ActivityHome
+        //Получить данные из ActivityVideo
         mVideoType = Integer.parseInt(bundle.getString(Utils.TAG_VIDEO_TYPE));
         mChannelId = bundle.getString(Utils.TAG_CHANNEL_ID);
 
@@ -189,7 +189,7 @@ public class FragmentChannelVideos extends Fragment implements View.OnClickListe
                     // To handle when position  = locationsData.size means loading view is click
                     // Для обработки когда положение = locationsData.size означает loading view нажат
                     if (position < mVideoData.size()) {
-                        // Передавать данные onVideoSelected в ActivityHome
+                        // Передавать данные onVideoSelected в ActivityVideo
                         mCallback.onVideoSelected(mVideoData.get(position).get(Utils.KEY_VIDEO_ID));
                     }
                 }

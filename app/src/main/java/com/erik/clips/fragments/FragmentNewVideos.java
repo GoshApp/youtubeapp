@@ -97,7 +97,7 @@ public class FragmentNewVideos extends Fragment implements View.OnClickListener 
         // Get Bundle data
         Bundle bundle = this.getArguments();
         setHasOptionsMenu(true);
-        // Get data from ActivityHome
+        // Get data from ActivityVideo
         mChannelNames = new ArrayList<>(Arrays.asList(bundle.getStringArray(Utils.TAG_CHANNEL_NAMES)));
         mVideoTypes = new ArrayList<>(Arrays.asList(bundle.getStringArray(Utils.TAG_VIDEO_TYPE)));
         mChannelIds = new ArrayList<>(Arrays.asList(bundle.getStringArray(Utils.TAG_CHANNEL_IDS)));
@@ -148,7 +148,7 @@ public class FragmentNewVideos extends Fragment implements View.OnClickListener 
                     public void onItemClick(RecyclerView parent, View clickedView, int position) {
                         // To handle when position  = locationsData.size means loading view is click
                         if (position < mVideoData.size()) {
-                            // Pass data to onVideoSelected in ActivityHome
+                            // Pass data to onVideoSelected in ActivityVideo
                             mCallback.onVideoSelected(mVideoData.get(position)
                                     .get(Utils.KEY_VIDEO_ID));
                         }

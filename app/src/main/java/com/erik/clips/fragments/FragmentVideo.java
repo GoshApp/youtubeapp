@@ -5,7 +5,7 @@ import android.os.Bundle;
 import com.google.android.youtube.player.YouTubeInitializationResult;
 import com.google.android.youtube.player.YouTubePlayer;
 import com.google.android.youtube.player.YouTubePlayerFragment;
-import com.erik.clips.activities.ActivityHome;
+import com.erik.clips.activities.ActivityVideo;
 
 /**
  * Created by Pongodev on 11/4/2015.
@@ -45,7 +45,7 @@ public final class FragmentVideo extends YouTubePlayerFragment
                                         boolean restored) {
         this.player = player;
         player.addFullscreenControlFlag(YouTubePlayer.FULLSCREEN_FLAG_CUSTOM_LAYOUT);
-        player.setOnFullscreenListener((ActivityHome) getActivity());
+        player.setOnFullscreenListener((ActivityVideo) getActivity());
         if (!restored && videoId != null) {
             player.cueVideo(videoId);
         }
