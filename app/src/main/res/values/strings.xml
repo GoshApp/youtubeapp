@@ -85,6 +85,9 @@
     <string name="more">Страница приложения</string>
     <string name="rate">Оценить приложение</string>
 
+    <!-- play store application in more apps -->
+    <string name="more_apps">https://play.google.com/store/apps/developer?id=Solodroid</string>
+
     <!-- About preferences keys, DO NOT change preferences keys below -->
     <string name="pref_share_key">prefShareKey</string>
     <string name="pref_rate_review_key">prefRateReviewKey</string>
